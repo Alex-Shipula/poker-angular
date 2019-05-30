@@ -1,0 +1,39 @@
+#menu {
+    background-color: #eef3eb;
+    display: flex;
+    height: 55px;
+  }
+  #menu .menu {
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+  }
+  
+  #menu a {
+    font-weight: 700;
+    color: darkkhaki;
+  }
+  #menu .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  #menu .menu ul {
+    list-style: none;
+  }
+  
+  #menu .menu ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  #menu li {
+    height: 55px;
+  }
+  #menu div a {
+    display: block;
+    line-height: 55px;
+    padding: 0 15px;
+  }
+  #menu-form-search form {
+    margin-right: 20px;
+  }
