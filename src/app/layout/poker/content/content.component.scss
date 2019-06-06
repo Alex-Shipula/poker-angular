@@ -1,0 +1,130 @@
+#content {
+  display: block;
+}
+#content .slider img {
+  height: 270px;
+  width: 450px;
+}
+#content .slider h5 {
+  width: 120px;
+  margin-left: 160px;
+}
+#featured .new-games ul {
+  list-style-type: none;
+}
+#featured .new-games ul {
+  display: flex;
+  flex-direction: column;
+}
+
+#featured .new-games ul li {
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+}
+
+#featured .new-games ul {
+  width: -webkit-fill-available;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+#featured .new-games ul li .info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#featured .new-games ul button {
+  align-self: flex-end;
+  margin-top: auto;
+  margin-left: auto;
+}
+
+#featured .new-games div a {
+  font-size: smaller;
+}
+#featured li .image1 {
+  display: flex;
+  padding-bottom: 5px;
+  margin-right: 5px;
+}
+#featured li .image2 {
+  display: flex;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin-right: 5px;
+}
+#featured li .image3 {
+  display: flex;
+  margin-right: 5px;
+  padding-top: 5px;
+}
+#featured li .info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-grow: 1;
+}
+#featured li .info button {
+  align-self: flex-end;
+  margin-top: auto;
+  margin-left: auto;
+}
+
+#content .href {
+  font-size: 13px;
+  color: black;
+  font-style: italic;
+}
+ 
+#popular {
+  margin-top: 47px;
+  margin-right: 0;
+}
+#popular div {
+  display: flex;
+}
+#popular ul {
+  list-style-type: none;
+  height: 215px;
+}
+#popular ul li {
+  width: 110px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+}
+#popular ul li a {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  flex-grow: 1;
+}
+
+#popular ul {
+  width: -webkit-fill-available;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 15px;
+  border: 1px solid #becabb;
+  background: #ecf3ea;
+}
+
+#popular button {
+  width: 50px;
+  margin-left: auto;
+}
+#popular .popular-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 100%;
+}
+#content .row button {
+  height: 20px;
+}
+#content .row {
+  font-size: 12px;
+}
